@@ -8,7 +8,7 @@
 import torch
 from .gcn_basic_modules import MLP, GCU
 from torch_scatter import scatter_max, scatter_mean
-from torch.nn import Sequential, Dropout, Linear, ReLU, Parameter
+from torch.nn import Sequential, Dropout, Linear, Parameter
 
 
 class JointPredNet(torch.nn.Module):

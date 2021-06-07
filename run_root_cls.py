@@ -11,7 +11,6 @@ import sys
 sys.path.append("./")
 import shutil
 import argparse
-import numpy as np
 
 import torch
 import torch.backends.cudnn as cudnn

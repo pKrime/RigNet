@@ -5,7 +5,7 @@
 # RigNet is made available under General Public License Version 3 (GPLv3), or under a Commercial License.
 # Please see the LICENSE README.txt file in the main directory for more information and instruction on using and licensing RigNet.
 #-------------------------------------------------------------------------------
-import numpy as np
+
 import torch
 from .gcn_basic_modules import MLP, GCU
 from torch.nn import Sequential, Dropout, Linear

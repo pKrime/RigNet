@@ -8,7 +8,7 @@
 import numpy as np
 import torch
 from torch_scatter import scatter_max
-from torch.nn import Sequential as Seq, Linear as Lin, ReLU, BatchNorm1d as BN, Dropout
+from torch.nn import Sequential as Seq, Linear as Lin, ReLU, BatchNorm1d as BN
 from .gcn_basic_modules import GCU, MLP
 
 __all__ = ['SKINNET', 'skinnet']

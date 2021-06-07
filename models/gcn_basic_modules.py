@@ -7,9 +7,9 @@
 #-------------------------------------------------------------------------------
 import torch
 from torch_geometric.nn import MessagePassing
-from torch_scatter import scatter_max, scatter_mean
+
 from torch_geometric.utils import add_self_loops, remove_self_loops, softmax
-from torch.nn import Sequential, Dropout, Linear, ReLU, BatchNorm1d, Parameter
+from torch.nn import Sequential, Linear, ReLU, BatchNorm1d
 
 
 def MLP(channels, batch_norm=True):

@@ -13,10 +13,8 @@
 """
 
 import sys
-sys.path.append("./")
+
 import os
-import glob
-import time
 import trimesh
 import numpy as np
 import open3d as o3d

@@ -6,12 +6,8 @@
 # Please see the LICENSE README.txt file in the main directory for more information and instruction on using and licensing RigNet.
 #-------------------------------------------------------------------------------
 
-import os
-import cv2
-import glob
 import numpy as np
 import open3d as o3d
-import matplotlib.pyplot as plt
 
 
 def drawSphere(center, radius, color=[0.0,0.0,0.0]):

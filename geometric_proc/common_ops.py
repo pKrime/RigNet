@@ -8,7 +8,7 @@
 
 import numpy as np
 import time
-import open3d as o3d
+
 from scipy.sparse import lil_matrix
 from scipy.sparse.csgraph import dijkstra
 
