@@ -6,8 +6,6 @@
 # Please see the LICENSE README.txt file in the main directory for more information and instruction on using and licensing RigNet.
 #-------------------------------------------------------------------------------
 
-import sys
-sys.path.append("./")
 import numpy as np
 
 

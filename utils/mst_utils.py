@@ -8,8 +8,7 @@
 
 import sys
 import numpy as np
-from utils.tree_utils import TreeNode
-from utils.rig_parser import Skel
+from .tree_utils import TreeNode
 
 
 def inside_check(pts, vox):

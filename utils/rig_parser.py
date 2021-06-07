@@ -7,7 +7,7 @@
 #-------------------------------------------------------------------------------
 
 import numpy as np
-from utils.tree_utils import TreeNode
+from .tree_utils import TreeNode
 try:
     import Queue as Q  # ver. < 3.0
 except ImportError:

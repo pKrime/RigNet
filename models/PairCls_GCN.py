@@ -7,7 +7,7 @@
 #-------------------------------------------------------------------------------
 import numpy as np
 import torch
-from models.gcn_basic_modules import MLP, GCU
+from .gcn_basic_modules import MLP, GCU
 from torch.nn import Sequential, Dropout, Linear
 from torch_scatter import scatter_max
 from torch_geometric.nn import PointConv, fps, radius, global_max_pool, knn_interpolate

@@ -6,7 +6,7 @@
 # Please see the LICENSE README.txt file in the main directory for more information and instruction on using and licensing RigNet.
 #-------------------------------------------------------------------------------
 import torch
-from models.gcn_basic_modules import MLP, GCU
+from .gcn_basic_modules import MLP, GCU
 from torch_scatter import scatter_max, scatter_mean
 from torch.nn import Sequential, Dropout, Linear, ReLU, Parameter
 
